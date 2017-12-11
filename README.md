@@ -22,19 +22,21 @@ This list can be essential if the blog implementation uses paging and a block sh
 
 ### Recent Blogs
 
-This plugin provides the array **latestBlogPosts**. The number of listed blog posts is determine by option **latest_quantity**
+This plugin provides the array **latestBlogPosts**. The number of listed blog posts is determined by option **latest_quantity**
 
 ### Featured Blogs
 
-This plugin provides the array **featuredBlogPosts**. Blog posts can specify in their Front Matter if the post should be listed and what position it should have in the list. Blog posts intended to be listed should set the following meta variables in their Front Matter:
+This plugin provides the array **featuredBlogPosts**. Blog posts can specify in their Front Matter if the post should be listed and what position it should have in the list. Blog posts intended to be listed should have set:
 
-__featured_blog_post: true__
-__featured_blog_post_order: <integer>__
+_featured_blog_post: true_
+
+_featured_blog_post_order:_ <integer>
 
 The plugin will use two additional option values:
 
-__featured_blog_post_sort_order: "asc" | "desc"__
-__featured_quantity: <integer>__
+_featured_blog_post_sort_order: "asc" | "desc"_
+
+_featured_quantity:_ <integer>
 
 ### Annualized Blogs List
 
